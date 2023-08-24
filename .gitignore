@@ -1,0 +1,5 @@
+# ignore Pycache
+__pycache__
+
+# ignore shell script
+git.sh
