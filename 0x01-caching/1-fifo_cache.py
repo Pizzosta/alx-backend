@@ -1,5 +1,5 @@
 #!/usr/bin/python3
-""" BaseCaching module
+""" FIFOCache module
 """
 
 from base_caching import BaseCaching
