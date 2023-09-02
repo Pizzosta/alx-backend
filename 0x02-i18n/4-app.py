@@ -1,5 +1,12 @@
 #!/usr/bin/env python3
-"""simple flask app"""
+"""
+This Flask application serves as the welcome page for Holberton School.
+It provides a simple webpage with a greeting message.
+
+Features:
+- Root URL ('/') displays a welcome message.
+- Supports internationalization for English and French.
+"""
 from flask import Flask, render_template, request
 from flask_babel import Babel, _
 
@@ -49,7 +56,7 @@ def index() -> str:
     home_title = _("Welcome to Holberton")
     home_header = _("Hello world!")
     return render_template(
-        '3-index.html', home_title=home_title, home_header=home_header)
+        '4-index.html', home_title=home_title, home_header=home_header)
 
 
 if __name__ == "__main__":
