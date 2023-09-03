@@ -42,7 +42,7 @@ def get_user():
     Get the user based on the login_as URL parameter.
 
     Returns:
-        dict or None: A user dictionary if a valid user is found, None otherwise.
+        dict/None: A user dictionary if a valid user is found, None otherwise.
     """
     user_id = request.args.get("login_as")
     if user_id:
